@@ -17,7 +17,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:text="El Trull" />
     </LinearLayout>
     <LinearLayout
@@ -28,8 +28,8 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="Viena" />
+            android:textSize="25dp"
+            android:text="Viena Granollers" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:text="Fonda Europa Restaurante" />
     </LinearLayout>
 </LinearLayout>
