@@ -7,13 +7,13 @@
     tools:context="com.example.chris.treballengrup.MainActivity">
 
     <Button
-        android:id="@+id/hoteles"
+        android:id="@+id/Hoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hoteles1" />
 
     <Button
-    android:id="@+id/restaurantes"
+    android:id="@+id/Restaurantes"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Restaurantes" />
