@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void opmenu (View v) {
+    public void oprestaurantes (View v) {
         startActivity(new Intent(this,Restaurante.class));
         Intent i = new Intent(this,Restaurante.class);
         startActivity(i);
@@ -21,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
     public void opmovies (View v) {
         startActivity(new Intent(this,Movies.class));
         Intent i = new Intent(this,Movies.class);
+        startActivity(i);
+    }
+
+    public void ophotels (View v) {
+        startActivity(new Intent(this,Hoteles.class));
+        Intent i = new Intent(this,Hoteles.class);
         startActivity(i);
     }
 }

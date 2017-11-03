@@ -23,7 +23,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="business"
+            android:onClick="opbusiness"
             android:textColor="@color/blanco"
             android:background="@drawable/business"
             android:layout_marginRight="5dp"
@@ -35,7 +35,7 @@
             android:layout_height="100dp"
             android:textColor="@color/blanco"
             android:background="@drawable/restaurants"
-            android:onClick="opmenu"
+            android:onClick="oprestaurantes"
             />
 
     </LinearLayout>
@@ -85,7 +85,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="hotels"
+            android:onClick="ophotels"
             android:textColor="@color/blanco"
             android:background="@drawable/hotels"
             android:layout_marginRight="5dp"
