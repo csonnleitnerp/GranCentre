@@ -15,8 +15,6 @@
         android:orientation="horizontal"
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
-
-
         >
 
 
@@ -28,8 +26,8 @@
             android:onClick="business"
             android:textColor="@color/blanco"
             android:background="@drawable/Business"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
             />
         <ImageView
             android:id="@+id/buttonR"
@@ -58,8 +56,8 @@
             android:onClick="movies"
             android:textColor="@color/blanco"
             android:background="@drawable/Movies"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
 
             />
         <ImageView
@@ -90,7 +88,7 @@
             android:onClick="hotels"
             android:textColor="@color/blanco"
             android:background="@drawable/hotels"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="5dp"
             />
         <ImageView
             android:id="@+id/buttonK"
