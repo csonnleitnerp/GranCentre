@@ -25,7 +25,7 @@
             android:layout_weight="1"
             android:onClick="business"
             android:textColor="@color/blanco"
-            android:background="@drawable/Business"
+            android:background="@drawable/business"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
             />
@@ -97,7 +97,7 @@
             android:layout_weight="1"
             android:onClick="knowledge"
             android:textColor="@color/blanco"
-            android:background="@drawable/Knowledge"
+            android:background="@drawable/events"
             />
 
     </LinearLayout>
