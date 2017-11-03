@@ -22,13 +22,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Web: http://www.hotelfondaeuropa.com/"/>
+            android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
 
-        <TextView
+
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
+            android:text="WEB"
+
+            android:id="@+id/Hotel1"/>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,13 +57,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Web: http://www.ciutathotels.com/"/>
+            android:text="Adreça: Turó Bruguet 2, 08400, Granollers, España"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Adreça:Turó Bruguet 2, 08400, Granollers, España"/>
+            android:text="WEB"
+
+            android:id="@+id/Hotel2"/>
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,13 +93,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Web: https://www.aparthotelateneavalles.com/en/?gclid=CLXu1LbJ87gCFXLItAodZBcAVA"/>
+            android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
+            android:text="WEB"
+
+            android:id="@+id/Hotel3"/>
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -116,13 +128,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Web: https://www.hotel-bb.es/hotel/barcelona-granollers/"/>
+            android:text="Adreça: Valldoriolf, 1, 08401, Granollers, España"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="Adreça:Valldoriolf, 1, 08401, Granollers, España"/>
+            android:text="WEB"
+
+            android:id="@+id/Hotel4"/>
+
+
 
         <TextView
             android:layout_width="wrap_content"
