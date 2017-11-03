@@ -24,6 +24,18 @@
             android:textSize="15dp"
             android:text="Web: http://www.hotelfondaeuropa.com/"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Teléfono: +34(93)8700312"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -42,6 +54,18 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:text="Web: http://www.ciutathotels.com/"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça:Turó Bruguet 2, 08400, Granollers, España"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Teléfono: +34(93)8796220"/>
 
 
     </LinearLayout>
@@ -62,6 +86,19 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:text="Web: https://www.aparthotelateneavalles.com/en/?gclid=CLXu1LbJ87gCFXLItAodZBcAVA"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Teléfono: +34(93)8794820"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -79,7 +116,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="https://www.hotel-bb.es/hotel/barcelona-granollers/"/>
+            android:text="Web: https://www.hotel-bb.es/hotel/barcelona-granollers/"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça:Valldoriolf, 1, 08401, Granollers, España"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Teléfono: +34(938)407132"/>
+
     </LinearLayout>
 
 </LinearLayout>
