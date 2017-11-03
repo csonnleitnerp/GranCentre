@@ -90,7 +90,7 @@
             android:textSize="18dp"
             android:text="                   Director: Denis Villeneuve
                    Genero: Ciencia ficción
-                   Duración: 163 min. "/>
+                   Duración: 163 minn. "/>
     </LinearLayout>
 
 </LinearLayout>
