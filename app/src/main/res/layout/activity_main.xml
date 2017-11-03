@@ -1,24 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.chris.treballengrup.MainActivity">
-
-    <Button
-        android:id="@+id/Hoteles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hoteles" />
-
-    <Button
-    android:id="@+id/Restaurantes"
+    android:id="@+id/LinearLayout0"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Restaurantes" />
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context="com.educem.primeraapp.ActividadPrincipal"
 
 
+        >
+
+
+        <ImageView
+            android:id="@+id/buttonB"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="business"
+            android:textColor="@color/blanco"
+            android:background="@drawable/Business"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:id="@+id/buttonR"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textColor="@color/blanco"
+            android:background="@drawable/Restaurants"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blanco"
+        android:layout_gravity="center"
+        tools:context="com.educem.primeraapp.ActividadPrincipal"
+        >
+
+
+        <ImageView
+            android:id="@+id/buttonM"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="movies"
+            android:textColor="@color/blanco"
+            android:background="@drawable/Movies"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+        <ImageView
+            android:id="@+id/buttonW"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:textColor="@color/blanco"
+            android:background="@drawable/Weather"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blanco"
+        android:layout_gravity="center"
+        tools:context="com.educem.primeraapp.ActividadPrincipal"
+        >
+
+
+        <ImageView
+            android:id="@+id/buttonH"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="hotels"
+            android:textColor="@color/blanco"
+            android:background="@drawable/hotels"
+            android:layout_marginRight="10dp"
+            />
+        <ImageView
+            android:id="@+id/buttonK"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:onClick="knowledge"
+            android:textColor="@color/blanco"
+            android:background="@drawable/Knowledge"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
