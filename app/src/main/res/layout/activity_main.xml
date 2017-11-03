@@ -54,12 +54,11 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="movies"
+            android:onClick="opmovies"
             android:textColor="@color/blanco"
             android:background="@drawable/movies"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
-
             />
         <ImageView
             android:id="@+id/weather"

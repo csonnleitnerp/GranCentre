@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Restaurante.class);
         startActivity(i);
     }
+
+    public void opmovies (View v) {
+        startActivity(new Intent(this,Movies.class));
+        Intent i = new Intent(this,Movies.class);
+        startActivity(i);
+    }
 }
