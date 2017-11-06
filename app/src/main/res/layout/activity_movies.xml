@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.chris.treballengrup.Movies"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,7 +28,9 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="Kingsman. El circulo de oro"
-                    android:textSize="25dp" />
+                    android:textSize="25sp"
+                    android:textColor="@color/negro"
+                    />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -36,33 +39,36 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="150dp"
-                        android:layout_height="120dp"
+                        android:layout_width="150sp"
+                        android:layout_height="120sp"
                         app:srcCompat="@drawable/kingsman" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingTop="15dp">
+                        android:paddingTop="15sp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Director: Matthew Vaughn"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Género: Acción"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duración: 141 min."
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -79,7 +85,8 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="Blade Runner 2049"
-                    android:textSize="25dp" />
+                    android:textColor="@color/negro"
+                    android:textSize="25sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -88,33 +95,36 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="150dp"
-                        android:layout_height="120dp"
+                        android:layout_width="150sp"
+                        android:layout_height="120sp"
                         app:srcCompat="@drawable/bladerunner" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingTop="15dp">
+                        android:paddingTop="15sp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Director: Denis Villeneuve"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Género: Ciencia ficción"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duración: 163 min."
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -127,10 +137,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"
                     android:text="Thor: Ragnarok"
-                    android:textSize="25dp" />
+                    android:textColor="@color/negro"
+                    android:textSize="25sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -139,33 +150,36 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="150dp"
-                        android:layout_height="120dp"
+                        android:layout_width="150sp"
+                        android:layout_height="120sp"
                         app:srcCompat="@drawable/thor" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingTop="15dp">
+                        android:paddingTop="15sp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Director: Taika Waititi"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Género: Aventuras"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duración: 131 min."
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -181,7 +195,8 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:text="Annabelle Creation"
-                    android:textSize="25dp" />
+                    android:textColor="@color/negro"
+                    android:textSize="25sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -190,33 +205,36 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="150dp"
-                        android:layout_height="120dp"
+                        android:layout_width="150sp"
+                        android:layout_height="120sp"
                         app:srcCompat="@drawable/anabelle" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:paddingTop="15dp">
+                        android:paddingTop="15sp">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Director: David F. Sandberg"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Género: Terror"
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Duración: 110 min."
-                            android:textSize="18dp" />
+                            android:textColor="@color/negro"
+                            android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
