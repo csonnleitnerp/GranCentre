@@ -16,5 +16,10 @@ public class Restaurante extends AppCompatActivity {
         spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setOnClickListener((View.OnClickListener) spinner);
     }
+    public void opmain (View v) {
+        startActivity(new Intent(this,MainActivity.class));
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
+    }
 
 }

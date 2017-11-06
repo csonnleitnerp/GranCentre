@@ -8,6 +8,28 @@
     tools:context="com.example.chris.treballengrup.Restaurante">
 
 
+    <ImageView
+        android:id="@+id/atras"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        app:srcCompat="@drawable/atras"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="opmain"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESTAURANES"
+            android:textSize="25dp"
+            android:textColor="@color/negro"
+            />
+    </LinearLayout>
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
