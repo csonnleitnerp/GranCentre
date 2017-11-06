@@ -30,7 +30,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Hotel 1");
-                        //AnarWeb("http://www.hotelfondaeuropa.com/");
+                        AnarWeb("http://www.hotelfondaeuropa.com/");
                     }
                 }
         );
@@ -40,6 +40,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Hotel 2");
+                        AnarWeb("http://www.hotelciutatgranollers.com/");
                     }
                 }
         );
@@ -49,6 +50,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Hotel 3");
+                        AnarWeb("https://www.aparthotelateneavalles.com/es/");
                     }
                 }
         );
@@ -58,6 +60,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Hotel 4");
+                        AnarWeb("https://www.hotel-bb.es/hotel/barcelona-granollers/");
                     }
                 }
         );
@@ -71,8 +74,6 @@ public class Hoteles extends AppCompatActivity {
     }
 
     public void AnarWeb(String s) {
-
-
-
+        href="s";
     }
 }

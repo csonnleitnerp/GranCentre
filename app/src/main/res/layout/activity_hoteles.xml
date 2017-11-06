@@ -7,10 +7,15 @@
     android:orientation="vertical"
     tools:context="com.example.chris.treballengrup.Hoteles">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,11 +23,18 @@
             android:textSize="25dp"
             android:text="Fonda Europa"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/fondaeuropa"/>
+
+
+
 
 
         <Button
@@ -33,6 +45,21 @@
 
             android:id="@+id/Hotel1"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="TELEFON"
+
+            android:id="@+id/Hoteltelefon1"/>
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,11 +80,17 @@
             android:textSize="25dp"
             android:text="Ciutat de Granollers"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Adreça: Turó Bruguet 2, 08400, Granollers, España"/>
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ciutat"/>
+
+
 
         <Button
             android:layout_width="wrap_content"
@@ -67,7 +100,22 @@
 
             android:id="@+id/Hotel2"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="TELEFON"
 
+            android:id="@+id/Hoteltelefon2"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Turó Bruguet 2, 08400, Granollers, España"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -89,11 +137,19 @@
             android:textSize="25dp"
             android:text="Aparthotel Atenea Valle"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/aparthotel"/>
+
+
+
+
 
         <Button
             android:layout_width="wrap_content"
@@ -103,7 +159,21 @@
 
             android:id="@+id/Hotel3"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="TELEFON"
 
+            android:id="@+id/Hoteltelefon3"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -124,20 +194,43 @@
             android:textSize="25dp"
             android:text="BB Hotel Granollers"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Adreça: Valldoriolf, 1, 08401, Granollers, España"/>
+            android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bb"/>
+
+
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="WEB"
+
+        android:id="@+id/Hotel4"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="WEB"
+            android:text="TELEFON"
 
-            android:id="@+id/Hotel4"/>
+            android:id="@+id/Hoteltelefon4"/>
 
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Adreça: Valldoriolf, 1, 08401, Granollers, España"/>
 
 
         <TextView
@@ -148,4 +241,6 @@
 
     </LinearLayout>
 
+    </ScrollView>
 </LinearLayout>
+
