@@ -29,4 +29,12 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Hoteles.class);
         startActivity(i);
     }
+
+    public void opweather (View v) {
+        startActivity(new Intent(this,Wheather.class));
+        Intent i = new Intent(this,Wheather.class);
+        startActivity(i);
+    }
+
+
 }

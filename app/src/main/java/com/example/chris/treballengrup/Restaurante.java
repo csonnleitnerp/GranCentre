@@ -16,7 +16,7 @@ public class Restaurante extends AppCompatActivity {
     public Button web2;
     public Button web3;
     public Button web4;
-    public Button web5
+    public Button web5;
 
     public Button tel1;
     public Button tel2;
@@ -44,7 +44,6 @@ public class Restaurante extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        MostraMissatge("Hotel 1");
                         AnarWeb("http://www.eltrull.com/ca");
                     }
                 }
@@ -54,7 +53,6 @@ public class Restaurante extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        MostraMissatge("Hotel 2");
                         AnarWeb("http://www.viena.es/ca/restaurants/viena-granollers/");
                     }
                 }
@@ -64,7 +62,6 @@ public class Restaurante extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        MostraMissatge("Hotel 3");
                         AnarWeb("http://www.hotelfondaeuropa.com/ca/restaurante/");
                     }
                 }
@@ -74,7 +71,6 @@ public class Restaurante extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        MostraMissatge("Hotel 4");
                         AnarWeb("http://lamezzaluna.es/");
                     }
                 }
@@ -84,18 +80,11 @@ public class Restaurante extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        MostraMissatge("Hotel 4");
-                        AnarWeb("https://www.hotel-bb.es/hotel/barcelona-granollers/");
+                        AnarWeb("https://www.tripadvisor.es/Restaurant_Review-g670666-d11758096-Reviews-Vinyam_Restaurant-Granollers_Catalonia.html");
                     }
                 }
         );
-
-    }
-
-    public void MostraMissatge(String s) {
-        Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
-    }
-
+}
     public void AnarWeb(String s) {
         //href="s";
         Uri uri= Uri.parse(s);

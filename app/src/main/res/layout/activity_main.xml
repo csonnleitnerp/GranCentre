@@ -64,6 +64,7 @@
             android:id="@+id/weather"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:onClick="opweather"
             android:layout_weight="1"
             android:textColor="@color/blanco"
             android:background="@drawable/weather"
