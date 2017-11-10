@@ -129,12 +129,14 @@ public class Hoteles extends AppCompatActivity {
     public void AnarWeb(String s) {
         //href="s";
         Uri uri= Uri.parse(s);
-        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+        Intent intent= new Intent(android.content.Intent.ACTION_VIEW,uri);
+        startActivity(intent);
     }
 
     public void AnarTelefon(String s) {
         Uri uri= Uri.parse(s);
-        Intent intent= new Intent(Intent.ACTION_DIAL,uri);
+        Intent intent= new Intent(android.content.Intent.ACTION_DIAL,uri);
+        startActivity(intent);
     }
 
     public void opmain (View v) {
