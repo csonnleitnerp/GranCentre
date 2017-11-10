@@ -83,7 +83,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 1");
-                        AnarTelefon("+34(93)8700312");
+                        AnarTelefon("tel:112");
                     }
                 }
         );
@@ -93,7 +93,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 2");
-                        AnarTelefon("+34(93)8796220");
+                        AnarTelefon("tel:+34(93)8796220");
                     }
                 }
         );
@@ -103,7 +103,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 3");
-                        AnarTelefon("+34(93)8794820");
+                        AnarTelefon("tel:+34(93)8794820");
                     }
                 }
         );
@@ -113,7 +113,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 4");
-                        AnarTelefon("+34(938)407132");
+                        AnarTelefon("tel:+34(938)407132");
                     }
                 }
         );
@@ -127,7 +127,6 @@ public class Hoteles extends AppCompatActivity {
     }
 
     public void AnarWeb(String s) {
-        //href="s";
         Uri uri= Uri.parse(s);
         Intent intent= new Intent(android.content.Intent.ACTION_VIEW,uri);
         startActivity(intent);
@@ -135,7 +134,7 @@ public class Hoteles extends AppCompatActivity {
 
     public void AnarTelefon(String s) {
         Uri uri= Uri.parse(s);
-        Intent intent= new Intent(android.content.Intent.ACTION_DIAL,uri);
+        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
     }
 
