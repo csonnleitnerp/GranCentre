@@ -8,33 +8,33 @@
     tools:context="com.example.chris.treballengrup.Restaurante">
 
 
-    <ImageView
-        android:id="@+id/atras"
-        android:layout_width="40sp"
-        android:layout_height="40sp"
-        app:srcCompat="@drawable/atras"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:onClick="opmain"
-        />
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10dp"
+        >
+        <ImageView
+            android:id="@+id/atras"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            app:srcCompat="@drawable/atras"
+            android:onClick="opmain"
+            />
 
         <TextView
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RESTAURANES"
             android:textSize="25dp"
+            android:text="RETAURANTES"
             android:textColor="@color/negro"
+            android:layout_marginLeft="60dp"
             />
     </LinearLayout>
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner"
-        />
+
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -49,14 +49,15 @@
             android:textSize="20dp"
             android:text="El Trull" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WEB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/www"
+            android:layout_marginLeft="20dp"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
 
@@ -72,15 +73,17 @@
             android:textSize="20dp"
             android:text="Viena Granollers" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WEB"
-
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/www"
             />
+
+
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
     </LinearLayout>
@@ -95,15 +98,15 @@
             android:textSize="20dp"
             android:text="Fonda Europa Restaurante" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WEB"
-
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/www"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
     </LinearLayout>
@@ -118,15 +121,15 @@
             android:textSize="20dp"
             android:text="La Mezza Luna" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WEB"
-
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/www"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
     </LinearLayout>
@@ -144,15 +147,16 @@
 
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:text="WEB" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/www"
+            />
 
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:layout_gravity="right"
             android:background="@drawable/icotel" />
     </LinearLayout>
