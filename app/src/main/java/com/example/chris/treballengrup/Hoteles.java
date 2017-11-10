@@ -83,7 +83,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 1");
-                        AnarTelefon("tel:112");
+                        AnarTelefon("tel: 112");
                     }
                 }
         );
