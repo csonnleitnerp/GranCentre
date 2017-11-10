@@ -37,6 +37,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -266,6 +272,7 @@
             android:text="Teléfono: +34(938)407132"/>
 
     </LinearLayout>
+        </LinearLayout>
 
     </ScrollView>
 </LinearLayout>
