@@ -19,5 +19,8 @@ public class business extends AppCompatActivity {
         startActivity(i);
     }
 
+    //Intent intent = new Intent (android.content.Intent.ACTION_VIEW,
+      //      Uri.parse("http://www.google.es"));
+
 
 }

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GranCentre</string>
+    <string name="action_settings"> Settings </string>
+    <string name="aboutText">About</string>
+    <string name="Colores">Colors</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
 </resources>
