@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="GRAN CENTRE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -19,7 +19,8 @@
         <activity android:name=".Hoteles" />
         <activity android:name=".Restaurante" />
         <activity android:name=".Movies" />
-        <activity android:name=".business"></activity>
+        <activity android:name=".business" />
+        <activity android:name=".Wheather"></activity>
     </application>
 
 </manifest>
