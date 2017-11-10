@@ -51,12 +51,14 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Web1"
             android:background="@drawable/www"
             android:layout_marginLeft="20dp"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Tel1"
             android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
@@ -75,6 +77,7 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Web2"
             android:layout_marginLeft="20dp"
             android:background="@drawable/www"
             />
@@ -83,6 +86,7 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Tel2"
             android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
@@ -100,12 +104,14 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Web3"
             android:layout_marginLeft="20dp"
             android:background="@drawable/www"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Tel3"
             android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
@@ -123,12 +129,14 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Web4"
             android:layout_marginLeft="20dp"
             android:background="@drawable/www"
             />
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Tel4"
             android:layout_marginLeft="20dp"
             android:background="@drawable/icotel"
             />
@@ -149,6 +157,7 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Web5"
             android:layout_marginLeft="20dp"
             android:background="@drawable/www"
             />
@@ -156,6 +165,7 @@
         <Button
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:id="@+id/Tel5"
             android:layout_marginLeft="20dp"
             android:layout_gravity="right"
             android:background="@drawable/icotel" />

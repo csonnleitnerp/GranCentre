@@ -51,7 +51,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Sol"
+            android:src="@drawable/sol"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/Sol"/>
+                android:src="@drawable/sol"/>
         </LinearLayout>
 
         <LinearLayout
@@ -104,7 +104,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/Nuve"/>
+                android:src="@drawable/nuve"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/Rayos"/>
+                android:src="@drawable/rayos"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/Nieve"/>
+                android:src="@drawable/nieve"/>
         </LinearLayout>
 
 
