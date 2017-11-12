@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GranCentre2.iml" filepath="$PROJECT_DIR$/GranCentre2.iml" />
       <module fileurl="file://C:\DAM2\M8 Android\GranCentre\GranCentre2.iml" filepath="C:\DAM2\M8 Android\GranCentre\GranCentre2.iml" />
       <module fileurl="file://C:\Users\chris\Documents\DAM 2\M8\UF1\TreballenGrup\GranCentre2.iml" filepath="C:\Users\chris\Documents\DAM 2\M8\UF1\TreballenGrup\GranCentre2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreballenGrup.iml" filepath="$PROJECT_DIR$/TreballenGrup.iml" />
       <module fileurl="file://C:\Users\Oscar\AndroidStudioProjects\GranCentre2\TreballenGrup.iml" filepath="C:\Users\Oscar\AndroidStudioProjects\GranCentre2\TreballenGrup.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
