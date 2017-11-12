@@ -36,5 +36,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void opevents (View v) {
+        startActivity(new Intent(this,Events.class));
+        Intent i = new Intent(this,Events.class);
+        startActivity(i);
+    }
+
 
 }

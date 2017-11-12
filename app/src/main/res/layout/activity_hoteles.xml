@@ -85,6 +85,14 @@
 
             android:id="@+id/Hoteltelefon1"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="UBICACIO"
+
+                android:id="@+id/Hotelubicacio1"/>
+
 </LinearLayout>
 
         <TextView
@@ -93,11 +101,7 @@
             android:textSize="15dp"
             android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Teléfono: +34(93)8700312"/>
+
 
     </LinearLayout>
 
@@ -140,6 +144,14 @@
 
             android:id="@+id/Hoteltelefon2"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="UBICACIO"
+
+                android:id="@+id/Hotelubicacio2"/>
+
         </LinearLayout>
 
 
@@ -149,11 +161,7 @@
             android:textSize="15dp"
             android:text="Adreça: Turó Bruguet 2, 08400, Granollers, España"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Teléfono: +34(93)8796220"/>
+
 
 
     </LinearLayout>
@@ -199,6 +207,14 @@
 
             android:id="@+id/Hoteltelefon3"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="UBICACIO"
+
+                android:id="@+id/Hotelubicacio3"/>
+
         </LinearLayout>
 
         <TextView
@@ -207,11 +223,7 @@
             android:textSize="15dp"
             android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Teléfono: +34(93)8794820"/>
+
 
     </LinearLayout>
 
@@ -256,6 +268,14 @@
 
             android:id="@+id/Hoteltelefon4"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="UBICACIO"
+
+                android:id="@+id/Hotelubicacio4"/>
+
         </LinearLayout>
 
         <TextView
@@ -265,11 +285,7 @@
             android:text="Adreça: Valldoriolf, 1, 08401, Granollers, España"/>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:text="Teléfono: +34(938)407132"/>
+
 
     </LinearLayout>
         </LinearLayout>

@@ -19,6 +19,7 @@
         <activity android:name=".Hoteles" />
         <activity android:name=".Restaurante" />
         <activity android:name=".Movies" />
+        <activity android:name=".Events" />
         <activity android:name=".business" />
         <activity android:name=".Wheather"></activity>
     </application>

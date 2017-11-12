@@ -22,6 +22,14 @@ public class Hoteles extends AppCompatActivity {
     public Button Tel4;
 
 
+    //NO VA LA UBICACION!
+
+    public Button Ub1;
+    public Button Ub2;
+    public Button Ub3;
+    public Button Ub4;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +45,14 @@ public class Hoteles extends AppCompatActivity {
         Tel2 = (Button)findViewById(R.id.Hoteltelefon2);
         Tel3 = (Button)findViewById(R.id.Hoteltelefon3);
         Tel4 = (Button)findViewById(R.id.Hoteltelefon4);
+
+
+        //NO VA LA UBICACION!
+
+        Ub1 = (Button)findViewById(R.id.Hotelubicacio1);
+        Ub2 = (Button)findViewById(R.id.Hotelubicacio2);
+        Ub3 = (Button)findViewById(R.id.Hotelubicacio3);
+        Ub4 = (Button)findViewById(R.id.Hotelubicacio4);
 
         Hot1.setOnClickListener(
                 new OnClickListener() {
@@ -83,7 +99,7 @@ public class Hoteles extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         MostraMissatge("Telefon 1");
-                        AnarTelefon("tel: 112");
+                        AnarTelefon("tel:+34(93)8700312");
                     }
                 }
         );
@@ -118,6 +134,23 @@ public class Hoteles extends AppCompatActivity {
                 }
         );
 
+        //NO VA LA UBICACION!
+
+        Ub1.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        MostraMissatge("Ubicacio1");
+                        Uri uri= Uri.parse("geo:41.608332,2.289050");
+                        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+
+
 
 
     }
@@ -133,6 +166,12 @@ public class Hoteles extends AppCompatActivity {
     }
 
     public void AnarTelefon(String s) {
+        Uri uri= Uri.parse(s);
+        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+        startActivity(intent);
+    }
+
+    public void AnarUbicacio(String s) {
         Uri uri= Uri.parse(s);
         Intent intent= new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
