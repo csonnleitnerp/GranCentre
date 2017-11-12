@@ -84,8 +84,61 @@ public class Restaurante extends AppCompatActivity {
                     }
                 }
         );
+
+        tel1.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Trucar("tel:(+34)972364928");
+                    }
+                }
+        );
+
+        tel2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Trucar("tel:(+34)938703045");
+                    }
+                }
+        );
+
+        tel3.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Trucar("tel:(+34)938700312");
+                    }
+                }
+        );
+
+        tel4.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Trucar("tel:(+34)938795223");
+                    }
+                }
+        );
+
+        tel5.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Trucar("tel:(+34)930232899");
+                    }
+                }
+        );
+
 }
     public void AnarWeb(String s) {
+        //href="s";
+        Uri uri= Uri.parse(s);
+        Intent intent= new Intent(android.content.Intent.ACTION_VIEW,uri);
+        startActivity(intent);
+    }
+
+    public void Trucar(String s) {
         //href="s";
         Uri uri= Uri.parse(s);
         Intent intent= new Intent(android.content.Intent.ACTION_VIEW,uri);
