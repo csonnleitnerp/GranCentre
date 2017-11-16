@@ -143,6 +143,49 @@ public class Hoteles extends AppCompatActivity {
                         MostraMissatge("Ubicacio1");
                         Uri uri= Uri.parse("geo:41.608332,2.289050");
                         Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+                        intent.setPackage("com.google.android.apps.maps");
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+        Ub2.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        MostraMissatge("Ubicacio2");
+                        Uri uri= Uri.parse("geo:41.601119,2.296046");
+                        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+                        intent.setPackage("com.google.android.apps.maps");
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+        Ub3.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        MostraMissatge("Ubicacio3");
+                        Uri uri= Uri.parse("geo:41.600897,2.285965");
+                        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+                        intent.setPackage("com.google.android.apps.maps");
+                        startActivity(intent);
+
+                    }
+                }
+        );
+
+        Ub4.setOnClickListener(
+                new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        MostraMissatge("Ubicacio4");
+                        Uri uri= Uri.parse("geo:41.614103, 2.303976");
+                        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
+                        intent.setPackage("com.google.android.apps.maps");
                         startActivity(intent);
 
                     }
