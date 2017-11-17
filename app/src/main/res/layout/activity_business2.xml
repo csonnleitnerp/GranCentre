@@ -46,7 +46,8 @@
             android:layout_height="70sp"
             app:srcCompat="@drawable/iconosmovil"
             android:layout_marginRight="10dp"
-            />
+            android:onClick="bmovil"
+            tools:ignore="OnClick" />
 
         <ImageView
             android:id="@+id/logo2"
@@ -54,7 +55,6 @@
             android:layout_height="70sp"
             app:srcCompat="@drawable/iconoropa"
             android:layout_marginRight="10dp"
-            android:onClick="bropa"
             />
 
         <ImageView
@@ -64,6 +64,7 @@
             app:srcCompat="@drawable/iconocoche"
             android:layout_marginRight="10dp"
             android:onClick="bcoche"
+
             />
 
     </LinearLayout>
@@ -84,7 +85,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="150sp"
                 android:layout_height="120sp"
-                app:srcCompat="@drawable/apple" />
+                app:srcCompat="@drawable/hm" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -116,7 +117,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="150sp"
                 android:layout_height="120sp"
-                app:srcCompat="@drawable/samsung" />
+                app:srcCompat="@drawable/mango" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -148,7 +149,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="150sp"
                 android:layout_height="120sp"
-                app:srcCompat="@drawable/huawei" />
+                app:srcCompat="@drawable/stradivarius" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

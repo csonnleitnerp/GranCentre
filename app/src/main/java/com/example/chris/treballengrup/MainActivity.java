@@ -3,6 +3,8 @@ package com.example.chris.treballengrup;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,18 +31,4 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Hoteles.class);
         startActivity(i);
     }
-
-    public void opweather (View v) {
-        startActivity(new Intent(this,Wheather.class));
-        Intent i = new Intent(this,Wheather.class);
-        startActivity(i);
-    }
-
-    public void opevents (View v) {
-        startActivity(new Intent(this,Events.class));
-        Intent i = new Intent(this,Events.class);
-        startActivity(i);
-    }
-
-
 }

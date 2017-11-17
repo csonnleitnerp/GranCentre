@@ -21,7 +21,10 @@
         <activity android:name=".Movies" />
         <activity android:name=".Events" />
         <activity android:name=".business" />
-        <activity android:name=".Wheather"></activity>
+        <activity android:name=".business2" />
+        <activity android:name=".business3" />
+        <activity android:name=".business4" />
+        <activity android:name=".Wheather"/>
     </application>
 
 </manifest>

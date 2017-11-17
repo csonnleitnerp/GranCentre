@@ -7,17 +7,17 @@
         android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:icon="@android:drawable/ic_menu_search"
-        android:showAsAction="always" />
+        app:showAsAction="always" />
     <item
         android:id="@+id/menuAbout"
         android:title="@string/aboutText"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:showAsAction="never" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/menuBuscar"
         android:title="@string/Colores"
         android:icon="@android:drawable/ic_menu_search"
-        android:showAsAction="never">
+        app:showAsAction="never">
         <menu>
             <group android:checkableBehavior="single"
                 android:menuCategory="container">

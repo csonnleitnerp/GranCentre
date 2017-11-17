@@ -2,14 +2,13 @@ package com.example.chris.treballengrup;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 
-public class business extends AppCompatActivity {
+public class business3 extends AppCompatActivity {
 
     public ImageView web1;
     public ImageView web2;
@@ -18,7 +17,7 @@ public class business extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_business);
+        setContentView(R.layout.activity_business3);
 
         web1 = (ImageView) findViewById(R.id.web1);
         web2 = (ImageView) findViewById(R.id.web2);
@@ -28,7 +27,7 @@ public class business extends AppCompatActivity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    AnarWeb("http://www.apple.com/");
+                    AnarWeb("http://www.volkswagen.es//");
                 }
             }
             );
@@ -37,7 +36,7 @@ public class business extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        AnarWeb("http://www.samsung.com/");
+                        AnarWeb("http://www.seat.es/");
                     }
                 }
         );
@@ -46,7 +45,7 @@ public class business extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        AnarWeb("http://www.huawei.com/");
+                        AnarWeb("http://www.audi.es/");
                     }
                 }
         );
@@ -56,20 +55,19 @@ public class business extends AppCompatActivity {
     public void AnarWeb(String s) {
         //href="s";
         Uri uri= Uri.parse(s);
-        Intent intent= new Intent(android.content.Intent.ACTION_VIEW,uri);
+        Intent intent= new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
     }
 
+    public void bmovil (View v) {
+        startActivity(new Intent(this,business.class));
+        Intent i = new Intent(this,business.class);
+        startActivity(i);
+    }
 
     public void bropa (View v) {
         startActivity(new Intent(this,business2.class));
         Intent i = new Intent(this,business2.class);
-        startActivity(i);
-    }
-
-    public void bcoche (View v) {
-        startActivity(new Intent(this,business3.class));
-        Intent i = new Intent(this,business3.class);
         startActivity(i);
     }
 
