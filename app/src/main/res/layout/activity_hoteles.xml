@@ -40,7 +40,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
 
     <LinearLayout
@@ -53,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
+            android:textColor="@color/negro"
             android:text="Fonda Europa"/>
 
         <LinearLayout
@@ -98,6 +100,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
+            android:textColor="@color/negro"
+            android:layout_marginBottom="10dp"
             android:text="Adreça: Agustí Vinyamata, 2, 08401, Granollers, España"/>
 
 
@@ -113,6 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
+            android:textColor="@color/negro"
             android:text="Ciutat de Granollers"/>
 
         <LinearLayout
@@ -158,6 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
+            android:textColor="@color/negro"
+            android:layout_marginBottom="10dp"
             android:text="Adreça: Turó Bruguet 2, 08400, Granollers, España"/>
 
 
@@ -174,6 +181,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
+            android:textColor="@color/negro"
             android:text="Aparthotel Atenea Valle"/>
 
         <LinearLayout
@@ -220,6 +228,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
+            android:textColor="@color/negro"
+            android:layout_marginBottom="10dp"
             android:text="Adreça: Aragón 49, 08400, Granollers, España"/>
 
 

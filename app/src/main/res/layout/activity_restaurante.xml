@@ -28,145 +28,167 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:text="RETAURANTES"
+            android:text="RESTAURANTES"
             android:textColor="@color/negro"
             android:layout_marginLeft="60dp"
             />
     </LinearLayout>
 
-
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            >
+            android:orientation="vertical"
+            android:layout_marginRight="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
 
 
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:id="@+id/trull"
-                android:src="@drawable/eltrull"/>
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Web1"
-                android:background="@drawable/www"
-                android:layout_marginLeft="20dp"
-                />
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Tel1"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/icotel"
-                />
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/trull"
+                    android:src="@drawable/eltrull"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Web1"
+                    android:background="@drawable/www"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Tel1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/icotel"
+                    />
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/viena"
+                    android:src="@drawable/viena"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Web2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/www"
+                    />
+
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Tel2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/icotel"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/fonda"
+                    android:src="@drawable/fonda"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Web3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/www"
+                    />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Tel3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/icotel"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/mezaluna"
+                    android:src="@drawable/lamezzaluna"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Web4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/www"
+                    />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Tel4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/icotel"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/vinyam"
+                    android:src="@drawable/vinyam"/>
+
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Web5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/www"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/Tel5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/icotel" />
+            </LinearLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:id="@+id/viena"
-                android:src="@drawable/viena"/>
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Web2"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/www"
-                />
-
-
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Tel2"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/icotel"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:id="@+id/fonda"
-                android:src="@drawable/fonda"/>
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Web3"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/www"
-                />
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Tel3"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/icotel"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:id="@+id/mezaluna"
-                android:src="@drawable/lamezzaluna"/>
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Web4"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/www"
-                />
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Tel4"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/icotel"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:id="@+id/vinyam"
-                android:src="@drawable/vinyam"/>
-
-
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Web5"
-                android:layout_marginLeft="20dp"
-                android:background="@drawable/www"
-                />
-
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/Tel5"
-                android:layout_marginLeft="20dp"
-                android:layout_gravity="right"
-                android:background="@drawable/icotel" />
-        </LinearLayout>
     </ScrollView>
+
+
+
+
 
 </LinearLayout>

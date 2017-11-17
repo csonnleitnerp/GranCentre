@@ -14,9 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void oprestaurantes (View v) {
+    public void oprestaurants (View v) {
         startActivity(new Intent(this,Restaurante.class));
         Intent i = new Intent(this,Restaurante.class);
+        startActivity(i);
+    }
+
+    public void opbusiness (View v) {
+        startActivity(new Intent(this,business.class));
+        Intent i = new Intent(this,business.class);
+        startActivity(i);
+    }
+
+    public void opweather (View v) {
+        startActivity(new Intent(this,Wheather.class));
+        Intent i = new Intent(this,Wheather.class);
         startActivity(i);
     }
 
@@ -29,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
     public void ophotels (View v) {
         startActivity(new Intent(this,Hoteles.class));
         Intent i = new Intent(this,Hoteles.class);
+        startActivity(i);
+    }
+
+    public void opevents (View v) {
+        startActivity(new Intent(this,Events.class));
+        Intent i = new Intent(this,Events.class);
         startActivity(i);
     }
 }

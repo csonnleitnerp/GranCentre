@@ -35,7 +35,7 @@
             android:layout_height="100dp"
             android:textColor="@color/blanco"
             android:background="@drawable/restaurants"
-            android:onClick="oprestaurantes"
+            android:onClick="oprestaurants"
             />
 
     </LinearLayout>
